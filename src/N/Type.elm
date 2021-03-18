@@ -1,36 +1,47 @@
 module N.Type exposing
-    ( Difference, To
-    , N, Is
+    ( N, Is
+    , Difference, To
     )
 
 {-| See the readme for more information.
-
-
-### difference
-
-@docs Difference, To
 
 
 ### n
 
 @docs N, Is
 
+
+### difference
+
+@docs Difference, To
+
 -}
 
 
-{-| No special meaning
+{-| No special meaning.
+
+    N n Is difference
+
 -}
 type Is
     = Is Never
 
 
-{-| No special meaning
+{-| No special meaning.
+
+    Difference a To b
+
 -}
 type To
     = To Never
 
 
 {-| `b - a`.
+
+    Difference a To (Nat1Plus a)
+
+would describe a difference of 1.
+
 -}
 type Difference a to b
     = Difference Never

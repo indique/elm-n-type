@@ -1,9 +1,9 @@
 {
     "type": "package",
     "name": "indique/elm-n-type",
-    "summary": "a number & a difference to describe a number in a type",
+    "summary": "describe a number as a difference in a type",
     "license": "MIT",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "exposed-modules": [
         "N.Type"
     ],

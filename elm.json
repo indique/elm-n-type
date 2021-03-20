@@ -3,9 +3,9 @@
     "name": "indique/elm-n-type",
     "summary": "describe a number as a difference in a type",
     "license": "MIT",
-    "version": "1.0.1",
+    "version": "2.0.0",
     "exposed-modules": [
-        "N.Type"
+        "Moved"
     ],
     "elm-version": "0.19.0 <= v < 0.20.0",
     "dependencies": {
